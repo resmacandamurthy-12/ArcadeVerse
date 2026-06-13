@@ -84,6 +84,15 @@ cross_btn = tk.Button(
     **btn_style
 )
 
+tech_label = tk.Label(
+    root,
+    text="Python • Tkinter • Turtle Graphics",
+    font=("Arial", 11, "italic"),
+    fg="#9ca3af",
+    bg="#111827"
+)
+tech_label.pack(pady=15)
+
 exit_btn = tk.Button(
     root,
     text="Exit",
